@@ -64,7 +64,8 @@ Housing is a billion dollar industry for investors and possibly the biggest purc
 ### Report findings:
 ### Results
 - Polynomial Regression of the Second Order gave the best results
-- Model gives a 2.28% increase in accuracy
+- Standard and Robust scaling were about the same. Standard was .00002 better
+- Model gives a 2.29% increase in accuracy
 
 ### Future work
 
@@ -196,7 +197,7 @@ Visual:
     created stripplot, scatterplot, barplot, boxplot, and more
     
 Statistical: 
-      t-tests
+      t-tests on clusters
 
 
 Summary
@@ -215,7 +216,7 @@ Features based on visual analysis:
     
     
  Features based on statistical analysis:
-    Again, not a lot of strong correlation between independent variables and dependent variable. However, there still was correlation between 
+    Again, not a lot of strong correlation between independent variables and dependent variable. However, clustering algorithums were able to find statistically significant clusteres
 
 
 
@@ -254,7 +255,7 @@ TweedieRegression (power=0, alpha=0)
 ### Evaluate Top Model on Test
 
 Polynomial Regression (degree = 2)
-- Model gives a 2.28% increase in accuracy
+- Model gives a 2.29% increase in accuracy
 
 
 
